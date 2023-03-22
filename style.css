@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
+
+body, html{
+	box-sizing: border-box;
+	display: grid;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10vmin;
+	text-align: center;
+}
+
+#main-container{
+}
+
+#panel{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	display: grid;
+	grid-column-start: 2;
+    grid-template-rows: 0.75% 0.7% 0.8% 1.5% 2.2% .35% 0.82% 2.66% 1% 0% 3.77% 3.24% 0.5% 2.3% 0.97% 0.65% 0% 0.2% 0.45% 0.7% 1.13% 0.6% 2.1% 0.75% 2.5% 1.6% 3.5% 5.284% 3% 0.22% 1fr;
+}
+
+.panel-image{
+	position: relative;
+	width: 100%;
+}
+
+#img-one{
+	grid-row-start: 1;
+}
+
+#img-two{
+	mix-blend-mode: multiply;
+	grid-row-start: 2;
+}
+
+#img-three{
+	mix-blend-mode: multiply;
+	grid-row-start: 3;
+}
+
+#img-four{
+	mix-blend-mode: multiply;
+	grid-row-start: 4;
+}
+
+#img-five{
+	mix-blend-mode: multiply;
+	grid-row-start: 5;
+}
+
+#img-six{
+	grid-row-start: 6;
+}
+
+#img-seven{
+	grid-row-start: 7;
+}
+
+#img-eight{
+	mix-blend-mode: multiply;
+	grid-row-start: 8;
+}
+
+#img-nine{
+	mix-blend-mode: multiply;
+	grid-row-start: 9;
+}
+
+#img-ten{
+	mix-blend-mode: multiply;
+	grid-row-start: 10;
+}
+
+#img-eleven{
+	mix-blend-mode: multiply;
+	grid-row-start: 11;
+}
+
+#img-twelve{
+	mix-blend-mode: multiply;
+	grid-row-start: 12;
+}
+
+#img-thirteen{
+	mix-blend-mode: multiply;
+	grid-row-start: 13;
+}
+
+#img-fourteen{
+	mix-blend-mode: multiply;
+	grid-row-start: 14;
+}
+
+#img-fifteen{
+	grid-row-start: 17;
+}
+
+#img-sixteen{
+	mix-blend-mode: multiply;
+	grid-row-start: 16;
+}
+
+#img-seventeen{
+	mix-blend-mode: soft-light;
+	grid-row-start: 15;
+}
+
+#img-eighteen{
+	grid-row-start: 18;
+}
+
+#img-nineteen{
+	grid-row-start: 21;
+}
+
+#img-twenty{
+	mix-blend-mode: multiply;
+	grid-row-start: 22;
+}
+
+#img-twenty-one{
+	mix-blend-mode: multiply;
+	grid-row-start: 20;
+}
+
+#img-twenty-two{
+	mix-blend-mode: soft-light;
+	grid-row-start: 19;
+}
+
+#img-twenty-three{
+	mix-blend-mode: multiply;
+	grid-row-start: 23;
+}
+
+#img-twenty-four{
+	grid-row-start: 24;
+}
+
+#img-twenty-five{
+	grid-row-start: 25;
+}
+
+#img-twenty-six{
+	grid-row-start: 26;
+}
+
+#img-twenty-seven{
+	grid-row-start: 27;
+}
+
+#img-twenty-eight{
+	grid-row-start: 28;
+}
+
+#img-twenty-nine{
+	grid-row-start: 29;
+}
+
+#img-thirty{
+	grid-row-start: 30;
+}
+
+#img-thirty-one{
+	mix-blend-mode: multiply;
+	grid-row-start: 31;
+}
+
+
