@@ -3,28 +3,101 @@
 
 
 body, html{
-	box-sizing: border-box;
+	background: black;
 	display: grid;
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 10vmin;
+	font-size: 10px;
 	text-align: center;
 }
 
 #main-container{
+	height: auto;
+}
+
+#text-panel{
+	position: absolute;
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 40%;
+	height: 1000px;
+	z-index: 1;
+}
+
+#title-text p{
+	width: 60%;
+}
+
+#main-title{
+	font-size: 3vw;
+	margin-top: 44%;
+}
+
+#denial-text-one{
+	font-size: 2vw;
+	margin-top: 63%;
+}
+
+#denial-text-two{
+	font-size: 1.5vw;
+	margin-top: -5%;
+}
+
+#anger-text-one{
+	color: whitesmoke;
+	font-size: 2vw;
+	margin-top: 430%;
+}
+
+#anger-text-two{
+	color: whitesmoke;
+	font-size: 1.5vw;
+	margin-top: -5%;
+}
+
+#bargaining-text-one{
+	font-size: 2vw;
+	margin-top: 595%;
+}
+
+#bargaining-text-two{
+	font-size: 1.5vw;
+	margin-top: -5%;
+}
+
+#depression-text-one{
+	font-size: 2vw;
+	margin-top: 395%;
+}
+
+#depression-text-two{
+	font-size: 1.5vw;
+	margin-top: -5%;
+}
+
+#acceptance-text-one{
+	color: whitesmoke;
+	font-size: 2vw;
+	margin-top: 479%;
+}
+
+#acceptance-text-two{
+	color: whitesmoke;
+	font-size: 1.5vw;
+	margin-top: -1%;
 }
 
 #panel{
+	background: white;
 	width: 60%;
 	margin-left: 20%;
 	margin-right: 20%;
 	display: grid;
-	grid-column-start: 2;
-    grid-template-rows: 0.75% 0.7% 0.8% 1.5% 2.2% .35% 0.82% 2.66% 1% 0% 3.77% 3.24% 0.5% 2.3% 0.97% 0.65% 0% 0.2% 0.45% 0.7% 1.13% 0.6% 2.1% 0.75% 2.5% 1.6% 3.5% 5.284% 3% 0.22% 1fr;
+    grid-template-rows: 0.75% 0.7% 0.8% 1.5% 2.2% .35% 0.82% 2.68% 1% 0% 3.79% 3.24% 0.5% 2.3% 0.97% 0.65% 0.4% 0.2% 0.45% 0.7% 1.13% 0.6% 2.1% 0.75% 2.5% 1.6% 3.5% 5.284% 3% 0.22% 2.3% 1fr;
 }
 
-.panel-image{
+#panel img{
 	position: relative;
 	width: 100%;
 }
@@ -171,4 +244,15 @@ body, html{
 	grid-row-start: 31;
 }
 
+#black-filler{
+	grid-row-start: 32;
+	background: black;
+	margin: 0px;
+}
 
+#cutscene-video{
+	aspect-ratio: 16 / 9;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
