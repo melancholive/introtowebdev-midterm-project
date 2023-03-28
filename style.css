@@ -3,8 +3,6 @@
 
 
 body, html{
-	background: linear-gradient(#1e1c1d,#302428,#30141c,#7b9393,#181935,#0b132a,#100c25,#0c121e,#0c121e);
-	display: grid;
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
@@ -16,8 +14,17 @@ body, html{
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 100%;
+	width: 100vw;
 	height: 1000vw;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .image-overlays{
@@ -25,11 +32,133 @@ body, html{
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	width: 100%;
+}
+
+#overlay-one{
+	mix-blend-mode: color-burn;
+	opacity: 50%;
+	margin-left: 16%;
+	margin-top: 133%;
+}
+
+#overlay-two{
+	mix-blend-mode: multiply;
+	opacity: 60%;
+	margin-left: -18%;
+}
+
+#overlay-three{
+	mix-blend-mode: color-burn;
+	opacity: 30%;
+	margin-top: 150%;
+}
+
+#overlay-four{
+	mix-blend-mode: multiply;
+	opacity: 50%;
+	margin-top: 335%;
+	margin-left: 20%;
+}
+
+#overlay-five{
+	mix-blend-mode: multiply;
+	opacity: 50%;
+	margin-top: 256%;
+}
+
+#overlay-six{
+	mix-blend-mode: color-burn;
+	opacity: 45%;
+	margin-top: 403%;
+	margin-left: -20%;
+}
+
+#overlay-seven{
+	mix-blend-mode: color-burn;
+	opacity: 50%;
+	margin-top: 300%;
+}
+
+#overlay-eight{
+	mix-blend-mode: hue;
+	opacity: 20%;
+	margin-top: 223%;
+}
+
+#overlay-nine{
+	mix-blend-mode: color-burn;
+	opacity: 40%;
+	margin-top: 490%;
+	margin-left: 20%;
+}
+
+#overlay-ten{
+	mix-blend-mode: darken;
+	margin-top: 48%;
+}
+
+#overlay-eleven{
+	mix-blend-mode: color-burn;
+	margin-top: 593%;
+	margin-left: -30%;
+}
+
+#overlay-twelve{
+	mix-blend-mode: color-burn;
+	opacity: 50%;
+	margin-top: 611%;
+	margin-left: 20%;
+}
+
+#overlay-thirteen{
+	mix-blend-mode: multiply;
+	opacity: 60%;
+	margin-top: 671%;
+}
+
+#overlay-fourteen{
+	mix-blend-mode: color-burn;
+	opacity: 30%;
+	margin-top: 795%;
+	margin-left: -20%;
+}
+
+#overlay-fifteen{
+	mix-blend-mode: multiply;
+	opacity: 30%;
+	margin-top: 800%;
+	margin-left: 20%;
+}
+
+#overlay-sixteen{
+	mix-blend-mode: multiply;
+	opacity: 50%;
+	margin-top: 850%;
+	margin-left: 20%;
+}
+
+#overlay-seventeen{
+	mix-blend-mode: multiply;
+	opacity: 50%;
+	margin-top: 971%;
+	margin-left: -24%;
+}
+
+#cutscene-link{
+	position: absolute;
+	margin-top: 718%;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
 }
 
 #left-panel{
+	z-index: 2;
 	position: absolute;
-	background: linear-gradient(#1e1c1d,#302428,#30141c,#7b9393,#181935,#0b132a,#100c25,#0c121e,#0c121e);
+    background: linear-gradient(#1c1d22,#101012,#281318,#7b9393,#0b132a,#000000,#0c121e,#0c121e, #000000);
 	top: 0%;
 	left: 0%;
 	height: 112.645%;
@@ -37,18 +166,13 @@ body, html{
 }
 
 #right-panel{
+	z-index: 2;
 	position: absolute;
-	background: linear-gradient(#1e1c1d,#302428,#30141c,#7b9393,#181935,#0b132a,#100c25,#0c121e,#0c121e);	
+	background: linear-gradient(#1e1c1d,#302428,#30141c,#a8a292,#0b132a,#100c25,#0c121e,#0c121e, #000000);	
 	top: 0%;
 	left: 80%;
 	height: 112.645%;
 	width: 20%;
-}
-
-#overlay-one{
-	mix-blend-mode: screen;
-	opacity: 50%;
-	margin-top: 50%;
 }
 
 #text-panel{
@@ -62,6 +186,10 @@ body, html{
 
 #title-text p{
 	width: 60%;
+}
+
+#cutscene-link{
+	color: white;
 }
 
 #main-title{
@@ -273,14 +401,15 @@ body, html{
 }
 
 #black-filler{
-/*	grid-row-start: 32;*/
+	position: absolute;
 	background: black;
-	margin: 0px;
+	margin-top: 1125%;
+	width: 100%;
+	height: 100vh;
 }
 
 #cutscene-video{
 	aspect-ratio: 16 / 9;
 	width: 100%;
-	margin: 0px;
-	padding: 0px;
+	margin-top: 50%;
 }
