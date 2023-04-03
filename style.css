@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 
-
 body, html{
 	margin: 0;
 	padding: 0;
@@ -158,7 +157,7 @@ a:hover {
 #left-panel{
 	z-index: 2;
 	position: absolute;
-    background: linear-gradient(#1c1d22,#101012,#281318,#7b9393,#0b132a,#000000,#0c121e,#0c121e, #000000);
+  background: linear-gradient(#1c1d22,#101012,#281318,#7b9393,#0b132a,#000000,#0c121e,#0c121e, #000000);
 	top: 0%;
 	left: 0%;
 	height: 112.645%;
@@ -412,4 +411,306 @@ a:hover {
 	aspect-ratio: 16 / 9;
 	width: 100%;
 	margin-top: 50%;
+}
+
+@media only screen and (max-width: 600px){
+
+	#left-panel{
+		display: none;
+	}
+
+	#right-panel{
+		display: none;
+	}
+
+	#main-container{
+		overflow-x: hidden;
+	}
+
+	#main-container img{
+		left: 0px;
+		width: 100%;
+		}
+
+	/* multiply margins by 1.6666 */
+
+	#img-one{
+	margin-top: 0%;
+	}
+
+	#img-two{
+		margin-top: 30%;
+	}
+
+	#img-three{
+		margin-top: 58.331%;
+	}
+
+	#img-four{
+		margin-top: 90%;
+	}
+
+	#img-five{
+		margin-top: 149.994%;
+	}
+
+	#img-six{
+		margin-top: 239.9904%;
+	}
+
+	#img-seven{
+		margin-top: 253.98984%;
+	}
+
+	#img-eight{
+		margin-top: 286.6552%;
+	}
+
+	#img-nine{
+		margin-top: 393.98424%;
+	}
+
+	#img-ten{
+		margin-top: 426.6496%;
+	}
+
+	#img-eleven{
+		margin-top: 427.4829%;
+	}
+
+	#img-twelve{
+		margin-top: 579.1435%;
+	}
+
+	#img-thirteen{
+		margin-top: 709.9716%;
+	}
+
+	#img-fourteen{
+		margin-top: 731.6374%;
+	}
+
+	#img-fifteen{
+		margin-top: 891.631%;
+	}
+
+	#img-sixteen{
+		margin-top: 864.9654%;
+	}
+
+	#img-seventeen{
+		margin-top: 826.6336%;
+	}
+
+	#img-eighteen{
+		margin-top: 908.297%;
+	}
+
+	#img-nineteen{
+		margin-top: 963.2948%;
+	}
+
+	#img-twenty{
+		margin-top: 1009.9596%;
+	}
+
+	#img-twenty-one{
+		margin-top: 934.9626%;
+	}
+
+	#img-twenty-two{
+		margin-top: 916.3%;
+	}
+
+	#img-twenty-three{
+		margin-top: 1033.292%;
+	}
+
+	#img-twenty-four{
+		margin-top: 1118.2886%;
+	}
+
+	#img-twenty-five{
+		margin-top: 1148.2874%;
+	}
+
+	#img-twenty-six{
+		margin-top: 1249.95%;
+	}
+
+	#img-twenty-seven{
+		margin-top: 1309.1143%;
+	}
+
+	#img-twenty-eight{
+		margin-top: 1439.9424%;
+	}
+
+	#img-twenty-nine{
+		margin-top: 1651.6006%;
+	}
+
+	#img-thirty{
+		margin-top: 1773.2624%;
+	}
+
+	#img-thirty-one{
+		margin-top: 1782.09538%;
+	}
+
+	#text-panel{
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+	}
+
+	#title-text p{
+		width: 100%;
+	}
+
+	/* multiply font size and margin by 1.6666 */
+
+	#main-title{
+		font-size: 4.9998vw;
+		margin-top: 38%;
+	}
+
+	#denial-text-one{
+		font-size: 3.3332vw;
+		margin-top: 50.9958%;
+	}
+
+	#denial-text-two{
+		font-size: 2.4999vw;
+		margin-top: -5%;
+	}
+
+	#anger-text-one{
+		color: whitesmoke;
+		font-size: 3.3332vw;
+		margin-top: 360.6398%;
+	}
+
+	#anger-text-two{
+		color: whitesmoke;
+		font-size: 2.4999vw;
+		margin-top: -5%;
+	}
+
+	#bargaining-text-one{
+		font-size: 3.3332vw;
+		margin-top: 495.627%;
+	}
+
+	#bargaining-text-two{
+		font-size: 2.4999vw;
+		margin-top: -5%;
+	}
+
+	#depression-text-one{
+		font-size: 3.3332vw;
+		margin-top: 333.307%;
+	}
+
+	#depression-text-two{
+		font-size: 2.4999vw;
+		margin-top: -5%;
+	}
+
+	#acceptance-text-one{
+		color: whitesmoke;
+		font-size: 3.3332vw;
+		margin-top: 398.3014%;
+		margin-bottom: 0%;
+	}
+
+	#acceptance-text-two{
+		color: whitesmoke;
+		font-size: 2.4999vw;
+		margin-top: 1%;
+	}
+
+	#image-overlays{
+	}
+
+	/* multiply margins by 1.6666 */
+
+	#overlay-one{
+		margin-left: 26.6656%;
+		margin-top: 221.6578%;
+	}
+
+	#overlay-two{
+		margin-left: -29.9988%;
+	}
+
+	#overlay-three{
+		margin-top: 249.99%;
+	}
+
+	#overlay-four{
+		margin-top: 558.311%;
+		margin-left: 33.332%;
+	}
+
+	#overlay-five{
+		margin-top: 426.6496%;
+	}
+
+	#overlay-six{
+		margin-top: 671.6398%;
+		margin-left: -33.332%;
+	}
+
+	#overlay-seven{
+		margin-top: 499.98%;
+	}
+
+	#overlay-eight{
+		margin-top: 371.6518%;
+	}
+
+	#overlay-nine{
+		margin-top: 816.634%;
+		margin-left: 33.332%;
+	}
+
+	#overlay-ten{
+		margin-top: 79.9968%;
+	}
+
+	#overlay-eleven{
+		margin-top: 988.2938%;
+		margin-left: -49.998%;
+	}
+
+	#overlay-twelve{
+		margin-top: 1018.2926%;
+		margin-left: 33.332%;
+	}
+
+	#overlay-thirteen{
+		margin-top: 1118.2886%;
+	}
+
+	#overlay-fourteen{
+		margin-top: 1324.947%;
+		margin-left: -33.332%;
+	}
+
+	#overlay-fifteen{
+		margin-top: 1333.28%;
+		margin-left: 33.332%;
+	}
+
+	#overlay-sixteen{
+		margin-top: 1416.61%;
+		margin-left: 33.332%;
+	}
+
+	#overlay-seventeen{
+		margin-top: 1618.2686%;
+		margin-left: -39.9984%;
+	}
+	
 }
